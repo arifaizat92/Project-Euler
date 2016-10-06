@@ -7,9 +7,18 @@
         <link rel="stylesheet" type="text/css" href="../css/stylesheet1.css">
     </head>
     <body>
-        <h1>Hello World!</h1>
         <section>
-            <p>Limit: <input type="text" name="limit"> </p>
+        <h1>Project Euler: Problem 1</h1>
+            <form onClick="solveProblem('limit');">
+                <h3>Limit:</h3>
+                <p><input type="text" id="limit"> 
+                <input type="button" value="submit"</p>
+            </form> 
+        </section>
+        <section>
+        <h1>Result</h1>
+        <br>
+        <h2 id="result"></h2>
         </section>
         <script type="text/javascript" src="../js/script1.js"></script>
     </body>

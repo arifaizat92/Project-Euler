@@ -1,7 +1,10 @@
-/*universal styling*/
-
-html, body, h1{
+html {
     margin: 0;
 }
+section {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
 
-/*basic styling*/
+
